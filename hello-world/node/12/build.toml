@@ -1,0 +1,6 @@
+[build]
+command = ["./build"]
+
+[[sdk]]
+name = "node"
+version = "~12"

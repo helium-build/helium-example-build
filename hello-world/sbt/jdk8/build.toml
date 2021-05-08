@@ -1,0 +1,10 @@
+[build]
+command = ["./build"]
+
+[[sdk]]
+name = "jdk"
+version = "^8"
+
+[[sdk]]
+name = "sbt"
+version = "^1.4.0"

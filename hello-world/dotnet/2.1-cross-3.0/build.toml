@@ -1,0 +1,19 @@
+[build]
+command = ["./build"]
+
+# dotnet-merge is a simple sdk that creates an sdk installation by
+# linking or copying other dotnet sdks in the path into a new directory.
+# This results in a single directory with multiple sdks enabled.
+[[sdk]]
+name = "dotnet-merge"
+version = "1.0"
+
+# It is important to list the sdks in this order because
+# dotnet-merge should be first in the path
+[[sdk]]
+name = "dotnet"
+version = "~2.1"
+
+[[sdk]]
+name = "dotnet"
+version = "~3.0"
